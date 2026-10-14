@@ -6,7 +6,7 @@ from aiogram.types import Message
 from aiogram.filters import Command
 
 # Ambil token dari Koyeb (biar aman)
-API_TOKEN = os.getenv("BOT_TOKEN")
+API_TOKEN = os.getenv("8842150612:AAFJDOQIRp8fkMHtXjK8aY2rkAK_w7QdHxw")
 if not API_TOKEN:
     print("ERROR: BOT_TOKEN belum di set di Koyeb!")
     exit()
